@@ -164,7 +164,6 @@ print(tokens)  # Output: ['ingin', 'belajar', 'NLP', 'memahami', 'stopwords.']
 from wordcloud import WordCloud
 import matplotlib.pyplot as plt
 
-text = "Python digunakan dalam analisis data, pemrograman, dan pengembangan aplikasi. Data sangat penting dalam dunia digital."
 wordcloud = WordCloud(width=800, height=400, background_color='white').generate(text)
 plt.figure(figsize=(10, 5))
 plt.imshow(wordcloud, interpolation='bilinear')
@@ -173,18 +172,21 @@ plt.show()
 ```
 
 **Contoh Output Word Cloud:**
-
+![alt text](/assets/image.png)
 ---
 
 ## 📚 Informasi Tambahan
 
 ### 🔹 Pustaka NLP yang Digunakan:
 
-- **NLTK**: Toolkit untuk pemrosesan bahasa alami.
-- **SpaCy**: NLP berbasis machine learning.
-- **TextBlob**: Operasi NLP yang lebih sederhana.
-- **Sastrawi**: Pemrosesan teks bahasa Indonesia.
-- **Gensim**: Pemodelan topik dan embedding kata.
+| Pustaka | Penggunaan Utama |
+|----------|-----------------|
+| **NLTK**  | Tokenisasi, stemming, lemmatization dasar |
+| **SpaCy** |  Named Entity Recognition (NER), dependency parsing |
+| **TextBlob** | Analisis sentimen, koreksi ejaan |
+| **Sastrawi** | Stemming Bahasa Indonesia dan Stopwords Bahas Indonesia|
+| **Gensim**  | Word embeddings, LDA topic modeling |
+
 
 ## 📝 Tugas 💡
 
@@ -199,5 +201,6 @@ plt.show()
 1. [Complete Guide to Text Preprocessing in NLP](https://medium.com/@devangchavan0204/complete-guide-to-text-preprocessing-in-nlp-b4092c104d3e)
 2. [Mastering Stemming Algorithms in Natural Language Processing: A Complete Guide with Python Implementation](https://medium.com/@omrylmzz35/mastering-stemming-algorithms-in-natural-language-processing-a-complete-guide-with-python-e7fd12089a69)
 3. [Getting started with Text Preprocessing](https://www.kaggle.com/code/sudalairajkumar/getting-started-with-text-preprocessing)
+
 
 
