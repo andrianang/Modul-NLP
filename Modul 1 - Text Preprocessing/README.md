@@ -190,7 +190,7 @@ plt.show()
 
 ## 📝 Tugas 💡
 
-🔹 **Melakukan preprocessing text pada file `Datasets/tugas.csv`.**
+🔹 **Melakukan preprocessing text pada dataset pada [Kaggle](https://www.kaggle.com/).**
 
 🔹 **Menambahkan minimal 3 teknik preprocessing tambahan** yang belum disebutkan di atas.
 
